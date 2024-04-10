@@ -8,10 +8,3 @@ burger_icon.addEventListener("click",()=>{
 function gotosecondpage() {
         window.location.href = "page2.html"; // Redirect to page2.html
 }
-
-function exitpage(){
-    //window.close();//
-    document.body.innerHTML = "<h1 class='goodbye'>Goodbye!</h1><p>This page has been terminated.</p>";
-}    
-
-    
